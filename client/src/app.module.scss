@@ -1,0 +1,29 @@
+$padding: 10px;
+$margin: 30px;
+
+.deviceListWrapper {
+  height: calc(100vh - ((2 * #{$margin}) + (2 * #{$padding})));
+  width: calc(100vw - ((2 * #{$margin}) + (2 * #{$padding})));
+  margin: $margin;
+  padding: $padding;
+  overflow: hidden;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;;
+}
+.topBar {
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: 40px;
+    display: flex;
+  h1 {
+    flex-grow: 1;
+    font-size: 1em;
+    margin: 20px 0px;
+    padding: 0;
+  }
+  div {
+    flex-grow: 0;
+    vertical-align: middle;
+    line-height: 60px;
+  }
+}
