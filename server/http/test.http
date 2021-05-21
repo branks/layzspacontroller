@@ -1,0 +1,29 @@
+###
+
+GET http://localhost:3000/info
+
+###
+
+GET https://localhost:3000/timer
+
+###
+
+POST https://localhost:3000/timer
+
+
+###
+
+POST https://localhost:3000/timer/1
+
+###
+
+GET http://localhost:3000/status
+
+###
+
+POST http://localhost:3000/setTemp
+Content-Type: application/json
+
+{
+  "temp": 40
+}

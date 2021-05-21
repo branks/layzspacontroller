@@ -1,0 +1,7 @@
+
+POST http://localhost:3000/setTemp
+Content-Type: application/json
+
+{
+  "temp": 40
+}

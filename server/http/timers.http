@@ -1,0 +1,9 @@
+GET https://localhost:3000/timer
+
+###
+
+POST https://localhost:3000/timer
+
+###
+
+POST https://localhost:3000/timer/1
